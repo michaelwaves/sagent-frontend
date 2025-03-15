@@ -30,7 +30,7 @@ export const getSfold = async (sequence: string) => {
 
         // Convert response to Blob
         const blob = await res.blob();
-        console.log(blob)
+        //console.log(blob)
         const zipUrl = window.URL.createObjectURL(blob);
 
         // Create a temporary link and trigger download

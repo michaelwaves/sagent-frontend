@@ -1,6 +1,7 @@
 import Image from "next/image";
 import GeneForm from "./GeneForm";
 import { DnaOff, Github } from "lucide-react";
+import Sagent from "./Sagent";
 
 export default function Home() {
   return (
@@ -44,10 +45,14 @@ export default function Home() {
             </code>
             .
           </li>
+          <li>Chat with Sagent to learn more about Sfold and discuss the outputs</li>
         </ol>
 
         {/* GeneForm */}
-        <GeneForm />
+        <div className="flex flex-row gap-10">
+          <GeneForm />
+          <Sagent />
+        </div>
       </main>
 
       {/* Footer */}
