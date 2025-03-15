@@ -8,10 +8,10 @@ export default function Home() {
       <main className="flex flex-col gap-10 row-start-2 items-center sm:items-start bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-8 sm:p-12 w-full max-w-2xl border border-gray-200 dark:border-gray-700">
         {/* Title */}
         <h1 className="text-4xl sm:text-5xl font-bold flex items-center gap-3 text-gray-900 dark:text-gray-100">
-          RM FOLD <DnaOff size={40} />
+          Sagent <DnaOff size={40} />
         </h1>
         <p className="text-center sm:text-left text-gray-600 dark:text-gray-300">
-          RM Fold is a wrapper around <strong>SFOLD</strong>, a tool to predict AntiSense Oligonucleotide binding strength and other RNA folding/protein expression.
+          Sagent is a useful agent to help you use <strong>SFOLD</strong>, a tool to predict AntiSense Oligonucleotide binding strength and other RNA folding/protein expression.
         </p>
 
         {/* Buttons */}
