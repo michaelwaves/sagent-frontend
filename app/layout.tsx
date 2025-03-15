@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "🧬RM Fold",
-  description: "The Best RNA Folding WebApp 😎",
+  title: "🧬Sagent",
+  description: "The Best RNA Folding/AI WebApp 😎",
 };
 
 export default function RootLayout({
